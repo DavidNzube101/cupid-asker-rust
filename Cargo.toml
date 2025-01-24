@@ -1,0 +1,4 @@
+[dependencies]
+actix-web = "4"
+tera = "1.18"  # For templates
+serde = { version = "1.0", features = ["derive"] } # For JSON handling

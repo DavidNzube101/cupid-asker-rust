@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Card Asker</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Send a Valentine's Card</h1>
+    <form action="/submit" method="post">
+        <label for="your_name">Your Name:</label>
+        <input type="text" id="your_name" name="your_name" required><br><br>
+        
+        <label for="recipient_name">Recipient's Name:</label>
+        <input type="text" id="recipient_name" name="recipient_name" required><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
